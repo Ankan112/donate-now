@@ -142,6 +142,7 @@ hr {
 .all-members {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .single-member {
@@ -156,4 +157,50 @@ hr {
 .single-member p {
     font-weight: bold;
     color: #707070;
+}
+
+.email-section {
+    text-align: center;
+}
+
+.subscribe-section {
+    padding: 50px 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #FFF4D6;
+
+}
+
+.email {
+    border: none;
+    background-color: rgba(128, 128, 128, 0.548);
+    outline: none;
+    padding: 19px 10px;
+    margin-right: -5px;
+
+}
+
+.subscribe {
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 17px 30px;
+    background-color: #FF5959;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 50px 0;
+    margin-top: 80px;
+}
+
+footer h1 {
+    color: #FF5959;
+    font-style: italic;
+}
+
+footer p {
+    color: aliceblue;
 }
