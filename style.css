@@ -114,3 +114,46 @@ hr {
 #education {
     background-color: #FFF4D6;
 }
+
+.fourth-section {
+    display: flex;
+    margin-top: 100px;
+}
+
+.half-width {
+    width: 45%;
+    /* margin-left: 5%; */
+}
+
+.half-width h1 {
+    font-size: 40px;
+}
+
+.half-width img {
+    width: 100%;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.members-section {
+    text-align: center;
+}
+
+.all-members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-member {
+    width: 30%;
+    box-shadow: 8px 8px 30px gray;
+}
+
+.single-member img {
+    width: 100%;
+}
+
+.single-member p {
+    font-weight: bold;
+    color: #707070;
+}
