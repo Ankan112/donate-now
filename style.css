@@ -64,6 +64,13 @@ body {
     font-size: 18px;
 }
 
+.other-amount {
+    font-size: 20px;
+    outline: none;
+    margin-top: 30px;
+    border: none;
+}
+
 .donate-wrapper {
     display: flex;
     justify-content: space-evenly;
